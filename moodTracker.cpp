@@ -1,3 +1,9 @@
+/*
+Shrish Kushwaha
+10/1/2025
+Extra: Used an array to store the responses.
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -33,4 +39,5 @@ cin >> moodTrack;
 
 
     return 0;
+
 }
