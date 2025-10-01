@@ -9,12 +9,15 @@ using namespace std;
 
 
 int main(){
+ //array and variables
 int moodTrack = 0;
 string responses[6] = {"Always try to stay happy when things are tough.", "Cheer up! Or the THE Rian will come for you."
 , "What are you so excited for?", "I hope you feel a little better.(Just a little!)",
  "Try to breathe a little more deeper.", "Huh, that wasn't on the list!"};
+ //asking and getting input
 cout << "What is your mood? 1-Happy, 2-Sad, 3-Excited, 4-Sick, 5-Nervous.";
 cin >> moodTrack;
+ //switch statement
  switch (moodTrack){
     case 1:
         cout << responses[0] << endl;
@@ -41,3 +44,4 @@ cin >> moodTrack;
     return 0;
 
 }
+
